@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;   
+}
+
+.case1{
+border:1px black solid;
+height:200px ;
+width: 30%;
+
+
+}
+.progressBarContainer{
+border: 1px black solid ;
+/*align-self: flex-end;
+flex-grow: 2;*/
+border-radius: 15px;
+background-color:rgb(192, 192, 192); ;
+width: 30%;
+height: 10px;
+margin-left: 60px;
+margin-top: 5px;
+}
+#progressBar{
+    width: 0%;
+    background-color: rgb(116, 194, 92);
+    border-radius: 15px;
+    height: 10px;
+}
+
+
+.case2{
+border:1px black solid;
+height:200px ;
+width: 30%;
+}
+.case3{
+    border:1px black solid;
+    height:200px ;
+    width: 30%;
+    }
+
+
+ #liveCoding{
+
+height: 100px;
+width:60% ;
+background-color: pink;
+    }
+    
+

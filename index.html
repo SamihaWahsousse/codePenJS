@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <style id="styleCss"></style>
+
+    <script src="codePen.js" defer></script>
+
+    <title>Mon codePEN</title>
+  </head>
+
+  <body>
+    <h1>Welcome !</h1>
+    <p>Entrer votre code dans les cases ci-dessous :</p>
+
+    <div class="container">
+      <h3>html</h3>
+
+      <textarea
+        class="case1"
+        id="html"
+        maxlength="100"
+        oninput="displayHtml()"
+      ></textarea>
+
+      <h3>CSS</h3>
+      <textarea class="case2" id="css" oninput="displayCss()"> </textarea>
+      <h3>JS</h3>
+      <textarea class="case3" id="js"> </textarea>
+    </div>
+    <div class="progressBarContainer">
+      <div id="progressBar"></div>
+    </div>
+    <div id="restant"></div>
+
+    <button>Run</button>
+    <div id="liveCoding">
+      Live_Coding
+      <p id="monText"></p>
+    </div>
+  </body>
+</html>

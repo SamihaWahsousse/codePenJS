@@ -43,10 +43,25 @@ width: 30%;
 
 
  #liveCoding{
-
-height: 100px;
-width:60% ;
+display: flex;
+height: 200px;
+width:100% ;
 background-color: pink;
-    }
+border-radius: 20px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: medium;
+padding-top: 10px;
+padding-left: 10px;
+word-break: break-all;
+}
+
+img{
+height: 100px;
+width: 100px;
+/* border: 1px solid black; */
+position:relative;
+top:-2.5rem;
+
+}
     
 
